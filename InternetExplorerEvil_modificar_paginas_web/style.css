@@ -1,0 +1,284 @@
+@font-face {
+    font-family: RedDevil;
+    src: url(Devil\ Story\ TTF\ Personal.ttf);
+}
+
+body{
+    background-color: black;
+}
+
+#flex-header{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+    box-sizing: border-box;
+}
+
+#logo{
+    width: 15%;
+    height: 120px;    
+    background-image: url(header.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: center;
+    order: 2;
+    box-sizing: border-box;
+}
+
+#title{
+    font-family: RedDevil;
+    font-size: 2.5em;
+    color: red;
+    box-sizing: border-box;
+
+}
+
+.i-letter{
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+
+ul.menu{ 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content:space-around;
+    align-items: center;
+    background-color: red;
+}
+
+ul.menu li{
+    padding: 1%;
+    list-style: none;
+    text-align: center;
+}
+
+ul.menu li a{
+    text-decoration: none;
+    color: black;
+    font-family: RedDevil;
+    font-size: 1em;
+}
+
+#container-flex{
+    width: 100%;
+    margin-top: 3%;
+    display: flex;
+    flex-flow: row nowrap;
+    align-content: center;
+    justify-content: center;
+}
+
+/*________________Primera caja del main________________*/
+
+#container-flex-box-1{
+    width: 30%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content:space-around;
+    align-items:center;
+}
+
+#container-flex-box-1-tittle{
+    color: red;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 0.8em;
+    font-family: RedDevil, serif;
+    text-align: center;
+}
+
+#container-flex-box-1-content{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: stretch;
+
+}
+
+#container-flex-box-1-content a:link{
+    text-decoration: none;
+    color: white ;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: font-size 0.5s;
+}
+
+#container-flex-box-1-content a:hover{
+    text-decoration: none;
+    color: white ;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2em;
+    
+}
+
+.container-flex-box-1-content-item{
+    padding: 3%;
+    border-left: none;    
+    border-right: none;
+    border-bottom-color: red;
+    border-bottom-style: solid;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+}
+
+/*_____________________________Segunda caja del main____________________*/
+
+#container-flex-box-2{
+    width: 30%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content:space-around;
+    align-items:center;
+    
+}
+
+
+#container-flex-box-2-tittle{
+    color: red;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 0.8em;
+    font-family: RedDevil, serif;
+    text-align: center;
+    
+}
+
+#container-flex-box-2-content{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+
+#container-flex-box-2-content a:link{
+    text-decoration: none;
+    color: white ;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: font-size 0.5s;
+}
+
+#container-flex-box-2-content a:hover{
+    text-decoration: none;
+    color: white ;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2em;
+    
+}
+
+.container-flex-box-2-content-item{
+    padding: 3%;
+    border-left: none;    
+    border-right: none;
+    border-bottom-color: red;
+    border-bottom-style: solid;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+}
+
+/*___________________Tercera caja del main__________________________*/
+
+#container-flex-box-3{
+    width: 30%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content:space-around;
+    align-items:center;
+}
+
+
+#container-flex-box-3-tittle{
+    color: red;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 0.8em;
+    font-family: RedDevil, serif;
+    text-align: center;
+}
+
+#container-flex-box-3-content{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+
+#container-flex-box-3-content a:link{
+    text-decoration: none;
+    color: white ;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: font-size 0.5s;
+}
+
+#container-flex-box-3-content a:hover{
+    text-decoration: none;
+    color: white ;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2em;
+}
+
+.container-flex-box-3-content-item{
+    padding: 3%;
+    border-left: none;    
+    border-right: none;
+    border-bottom-color: red;
+    border-bottom-style: solid;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+}
+
+/*______________pie______________________*/
+
+#flex-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:stretch;
+    margin-top: 2%;
+    padding: 2%;
+    background-color: rgb(255, 0, 0);
+}
+
+#footer-text{
+    color: black ;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 0.9em;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#footer-direction{
+    padding: 3%;
+    background-color: rgb(255, 0, 0);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 0.9em;
+}
+
+img{
+    margin-right: 2%;
+}
+
+#footer-direction a:link{
+    text-decoration: none;
+    color: black;
+}
+
+#footer-direction a:hover{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#footer-direction a:visited{
+    text-decoration: none;
+    color: black;
+}

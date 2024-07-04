@@ -1,0 +1,336 @@
+@font-face {
+    font-family: Anuphan;
+    src: url(Anuphan-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: BreakingNews;
+    src: url(BreakingNews.ttf);
+}
+
+body{
+    background-color: white;
+}
+
+#container-flex-header{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    text-align: center;
+    background-color: white;
+    width: 92%;
+    height: 20%;
+    padding: 2%;
+}
+
+#container-flex-main{
+    width: 70%;
+    display: flex;
+    flex-flow: row nowrap;
+    margin-left: 20%; 
+    box-sizing: border-box;
+}
+.emphasis{
+    font-style: italic;
+}
+
+#container-flex-boxes{
+    width: 35%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;   
+    }
+
+#container-flex-whatis{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    padding: 2% 3% 2% 3%;
+    background-color: rgb(235,94,48);
+    box-sizing: border-box;
+    }
+
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3%;
+}
+.container-question{
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    font-family: BreakingNews,serif;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-answer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Anuphan,serif;
+    text-align: justify;
+    font-size: 0.9em;
+    padding: 0 3% 0 3%;
+    box-sizing: border-box;
+    
+}
+
+#container-flex-desagree{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    padding: 2% 3% 2% 3%;
+    background-color: rgb(35,87,87);
+    padding-bottom: 5%;
+    margin-top: 2%;
+    box-sizing: border-box;
+    }
+
+    #container-flex-top10{
+        width: 55%;
+        box-sizing: border-box;
+        margin-left: 2%;
+        display: flex;
+        align-items:stretch;
+        justify-content: space-around;
+    }
+
+    table{
+        border-collapse: collapse;
+        width: 100%;
+        
+    }
+
+    th{ 
+        text-align: center;
+        background-color: rgb(35,87,87);
+        font-family: BreakingNews;
+        font-size: 1.8em;
+        overflow: hidden;
+    }
+
+    tbody{
+    font-family: Anuphan;
+    }
+
+    tbody td:nth-child(odd){
+        width: 15%;
+        text-align: center;
+      }
+
+    tbody tr:nth-child(odd) {
+        background-color: rgb(78,114,114);
+        text-align: center;
+      }
+      
+    tbody tr:nth-child(even) {
+        background-color: rgb(100,148,148);
+      }
+
+    td {
+        padding: 2%;
+        text-align: left;
+      }
+
+    tbody tr:hover{
+        background-color: rgb(235,94,48);
+        transition: all 0.5s;
+        transform: scale(1.05);
+        font-size: 1.5em;
+    }
+      a{ 
+        text-decoration: none;
+        color: black;
+        z-index: 1;
+      }
+
+    #container-flex-poll-quiz{
+        width: 80%;
+        display: flex;
+        flex-flow: row nowrap;
+        align-content: center;
+        justify-content: center;
+        align-self: center;
+        text-align: center;
+        margin-left: 12%;
+        
+    }
+
+    .flexbox-poll-quiz{
+        background-color: rgb(100,148,148) ;
+        padding: 2%;
+        width: 36%;
+        margin-top: 2%;
+    }
+
+    .flexbox-poll-quiz:hover{
+        background-color: rgb(235,94,48);
+        transition: all 0.5s;
+        transform: scale(1.10);
+        font-size: 1.5em;
+    }
+    
+    #container-flex-links{
+        width: 90%;
+        display: flex;
+        flex-flow: column nowrap;
+        align-content: center;
+        justify-content: center;
+        align-self: center;
+        text-align: center;
+        margin-left: 5%;
+    }
+
+    .box-link{
+        padding: 5%;
+        font-family: BreakingNews,serif;
+        font-size: 1.2em;
+        margin-top: 1%;
+        letter-spacing: 2px;
+    }
+
+#box-link-top-users{
+    background-color: rgb(144,57,29);
+
+}
+
+#box-link-top-bestof{
+    background-color: rgb(78,114,114);
+}
+
+#box-link-top-manof{
+    background-color: rgb(35,87,87);
+}
+
+.box-link:hover{
+    background-color: rgb(235,94,48);
+    transition: all 0.5s;
+    transform: scale(1.10);
+    font-size: 1.5em;
+}
+
+#container-story{
+    padding: 1%;
+    margin-top: 1%;
+    background-color:rgb(235,94,48);
+    font-family: BreakingNews, serif;
+    
+}
+
+#question-story{
+    font-size: 2em;
+    text-align: center;
+}
+
+.answer-story{
+    font-family: Anuphan,serif;
+    text-align: justify;
+    margin: 0% 7% 2% 7%;
+}
+
+
+#container-whatdoyou{
+    padding: 5%;
+    margin-top: 1%;
+    font-size: 1.5em;
+    background-color:rgb(100,148,148);
+    font-family: BreakingNews, serif;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container-whatdoyou:hover{
+    background-color: rgb(132,196,196);
+    transition: all 0.5s;
+    transform: scale(1.10);
+    font-size: 1.5em;
+}
+
+.container-footer{
+    background-color: rgb(52,76,76);
+    width: 100%;
+    margin-top: 1%;
+}
+
+.container-footer .f-group{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+
+.container-footer .f-group .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-footer .f-group .box figure img{
+    width: 200px;
+}
+
+.container-footer .f-group .box h2{
+    font-family: BreakingNews,serif;
+    font-size: 1.2em;
+    margin-bottom: 2%;
+}
+
+.container-footer .f-group .box p a{
+    font-family: Anuphan,serif;
+    font-size: 1.2em;
+    margin-bottom: 1%;
+}
+
+.container-footer .f-group .red-social a{
+    text-decoration: none;
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: rgb(235,94,48);
+    background-color: rgb(100,148,148);
+    text-align: center;
+    transition: all 300ms ease;
+}
+
+.container-footer .f-group .red-social a:hover{
+    color: rgb(255, 77, 0);
+    background-color: rgb(111, 192, 192);
+}
+
+.container-footer .s-group{
+    background-color: rgb(39, 58, 58);
+    text-align: center;
+    padding: 1% 2%;
+}
+
+.container-footer .s-group p{
+    font-size: 0.8em;
+}
+
+@media screen and (max-width:800px) {
+    .container-footer .f-group{
+        width: 90%;
+        max-width: 1200px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
+    }  
+}
